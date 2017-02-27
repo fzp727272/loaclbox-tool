@@ -1,0 +1,36 @@
+@darkcolor: #222;
+
+.navbar-inverse {
+  background-color: @darkcolor;
+  border: 1px solid darken(@darkcolor, 10%);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  min-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+
+
+.navbar-toggle{
+  border:1px solid #fff;
+ .icon-bar{  background-color: #fff;}
+
+}
+.navbar-form{box-shadow: none !important;}
+
+@media screen and (min-width: 769px) {
+.linebetweenlogo{
+      border-left: 2px solid #fff;
+    padding-right: 30px;
+}
+}
+.navbar-inverse{
+  select{
+    background: @darkcolor;
+    color: #fff;
+    border: 1px solid lighten(@darkcolor,20%);
+    box-shadow: none;
+  }
+}

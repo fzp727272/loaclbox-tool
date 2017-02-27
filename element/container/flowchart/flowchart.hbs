@@ -1,0 +1,118 @@
+<style>
+	#flow-chart-invisiable-input{
+		display: none;
+	}
+</style>
+<div class="panel panel-default" id="flowandcart">
+	<div class="panel-heading">
+		<div class="colume-title">
+			<span class="colume-title-line"></span>
+			Flow & Cart
+		</div>
+	</div>
+	<!-- /.panel-heading -->
+	<div class="panel-body">
+
+		<div class="col-lg-4">
+			<div class="form-group">
+				<label>Version</label>
+						<select class="form-control">
+				         <option>v5</option>
+                    <option>v3</option>
+                    <option>v2</option>
+				</select></div>
+		</div>
+		<div class="col-lg-4">
+			<div class="form-group">
+				<label>Partner</label>
+				
+				<select class="form-control" id="">
+					<option selected="selected">Origin</option><option>Topup - Test</option><option>Pogo</option><option>Swtor</option>
+				</select></div>
+		</div>
+		<div class="col-lg-4">
+			<div class="form-group">
+				<label>Cart Name</label>
+				<div class=" input-group">
+					<input type="text" class="form-control ">
+					<span class=" input-group-btn" role="group">
+
+						<button type="button" class="btn btn-default " style="border-radius: 0"> <i class="fa fa-times-circle text-danger"></i>
+							Delete
+						</button>
+
+					</span>
+					<span class=" input-group-btn" role="group">
+
+						<button type="button" class="btn btn-default " "> <i class="fa fa-get-pocket text-info"></i>
+							Get
+						</button>
+
+					</span>
+				</div>
+
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="form-group">
+				<label>Flow</label>
+				<select class="form-control">
+					<option>Cart Checkout (With Access Token) - EADP Internal Use Only</option>
+					<option selected="selected">Cart Checkout</option>
+					<option>
+						Subscription Checkout (With Access Token) - EADP Internal Use Only
+					</option>
+					<option>Chained Checkout - EADP Internal Use Only</option>
+					<option>POSA Card Redemption</option>
+					<option>Product Code Redemption</option>
+					<option>Available Payment Page</option>
+					<option>Cart Checkout (Gift) - EADP Internal Use Only</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<div class="form-group">
+				<label>Offer</label>
+				<select class="form-control">
+					<option>Digital - Full Game(Offer0008-For-LockBox-Digital</option>
+					<option>Digital - Full Game(Offer0008-For-LockBox-Digital</option>
+					<option>Digital - Full Game(Offer0008-For-LockBox-Digital</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+
+			</div>
+
+		</div>
+
+		<div class="col-lg-4">
+			<div class="form-group">
+				<label>StoreId</label>
+
+				<input type="text" class="form-control" placeholder="Enter text" ></div>
+
+		</div>
+		<div class="col-lg-4">
+			<button class="btn btn-success " type="submit"><i class="fa fa-plus"></i> Add Offer</button>
+		</div>
+		<div id="flow-chart-invisiable-input">
+		<div class="col-lg-4">
+			<div class="form-group">
+				<label>RecipientId</label>
+
+				<input type="text" class="form-control" placeholder="Enter text" ></div>
+
+		</div>
+		<div class="col-lg-4">
+			<div class="form-group">
+				<label>Message</label>
+
+				<input type="text" class="form-control" placeholder="Enter text" ></div>
+
+		</div>
+		</div>
+
+	</div>
+</div>
+<!-- /.panel-body -->
