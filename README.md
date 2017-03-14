@@ -1,7 +1,7 @@
 # localbox-tool
 A web tool 
 # Screenshot
-https://fzp727272.github.io/localbox-tool/docs/
+https://fzp727272.github.io/localbox-tool/
 # How to use
 ```bash
 $ npm install
